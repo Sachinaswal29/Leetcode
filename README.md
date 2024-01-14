@@ -1,1 +1,1 @@
-# Leetcode
+This repository contains my daily LeetCode solutions. Each day, I solve one or more LeetCode problems and share the solutions here. The goal is to enhance problem-solving skills, explore different algorithms, and maintain a record of progress.# Leetcode
