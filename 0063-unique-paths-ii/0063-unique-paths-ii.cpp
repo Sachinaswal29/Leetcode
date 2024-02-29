@@ -7,8 +7,8 @@ public:
         if(i>=row || j>=col || obstacleGrid[i][j]==1) return 0;
         if(i==row-1 && j==col-1) return 1;
         if(dp[i][j]!=-1) return dp[i][j];
-        int right=solve(obstacleGrid,i+1,j,row,col);
-        int down=solve(obstacleGrid,i,j+1,row,col);
+        int right=solve(obstacleGrid,i,j+1,row,col);
+        int down=solve(obstacleGrid,i+1,j,row,col);
         return dp[i][j]=right+down;
     }
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
