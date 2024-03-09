@@ -1,8 +1,9 @@
 class Solution {
 public:
     int getCommon(vector<int>& nums1, vector<int>& nums2) {
+        unordered_set<int>s(nums1.begin(),nums1.end());
         for(auto el:nums2){
-            if(binary_search(nums1.begin(),nums1.end(),el)) return el;
+            if(s.contains(el)) return el;
         }
         return -1;
     }
