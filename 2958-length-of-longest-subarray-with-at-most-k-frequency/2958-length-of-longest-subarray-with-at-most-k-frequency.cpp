@@ -5,13 +5,18 @@ public:
         unordered_map<int,int>mp;
         int i=0,j=0;
         int maxLength=0;
+        int culprit=0;
         while(j<n){
             mp[nums[j]]++;
-            while(i<j && mp[nums[j]]>k){
+            if(mp[nums[j]] == k+1){
+               culprit++;
+            }
+            if(culprit>0){
                 mp[nums[i]]--;
+                if(mp[nums[i]]==k) culprit--;
                 i++;
             }
-            maxLength=max(maxLength,j-i+1);
+            if(culprit==0) maxLength=max(maxLength,j-i+1);
             j++;
         }
         return maxLength;
