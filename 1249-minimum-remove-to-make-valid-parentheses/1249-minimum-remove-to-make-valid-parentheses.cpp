@@ -40,6 +40,38 @@ public:
         // return s;
 
     /*------------------------------APPROACH 3-------------------------*/
+        // string temp="";
+        // int open=0;
+        // for(int i=0;i<s.size();i++){
+        //     if(s[i]=='(') {
+        //         open++;
+        //         temp.push_back(s[i]);
+        //     }
+        //     else if(s[i]==')' && open > 0){
+        //         open--;
+        //         temp.push_back(s[i]);
+        //     }
+        //     else if(s[i]>='a' && s[i]<='z') temp.push_back(s[i]);
+        // }
+        
+        // string ans="";
+        // int close=0;
+        // for(int i=temp.size()-1;i>=0;i--){
+        //     if(temp[i]==')') {
+        //         close++;
+        //         ans.push_back(temp[i]);
+        //     }
+        //     else if(temp[i]=='(' && close > 0){
+        //         close--;
+        //         ans.push_back(temp[i]);
+        //     }
+        //     else if(temp[i]>='a' && temp[i]<='z') ans.push_back(temp[i]);
+        // }
+        
+        // reverse(ans.begin(),ans.end());
+        // return ans;
+
+         /*------------------------------APPROACH 4-------------------------*/
         string temp="";
         int open=0;
         for(int i=0;i<s.size();i++){
@@ -55,17 +87,11 @@ public:
         }
         
         string ans="";
-        int close=0;
         for(int i=temp.size()-1;i>=0;i--){
-            if(temp[i]==')') {
-                close++;
-                ans.push_back(temp[i]);
+            if(temp[i]=='(' && open > 0){
+                open--;
             }
-            else if(temp[i]=='(' && close > 0){
-                close--;
-                ans.push_back(temp[i]);
-            }
-            else if(temp[i]>='a' && temp[i]<='z') ans.push_back(temp[i]);
+            else ans.push_back(temp[i]);
         }
         
         reverse(ans.begin(),ans.end());
