@@ -11,44 +11,29 @@
  */
 class Solution {
 private:
-    void makeGraph(TreeNode* root, TreeNode* prev, unordered_map<TreeNode*,vector<TreeNode*>>& graph, unordered_set<TreeNode*>& leafNode){
-        if(!root) return;
-        if(!root->left && !root->right) leafNode.insert(root);
-        if(prev!=NULL){
-            graph[root].push_back(prev);
-            graph[prev].push_back(root);
-        }
-        makeGraph(root->left,root,graph,leafNode);
-        makeGraph(root->right,root,graph,leafNode);
-    }
-    
-public:
-    int countPairs(TreeNode* root, int distance) {
-        unordered_map<TreeNode*,vector<TreeNode*>>graph;
-        unordered_set<TreeNode*>leafNode;
-        makeGraph(root,NULL,graph,leafNode);
-        int goodPairs=0;
-        for(auto& leaf:leafNode){
-            queue<TreeNode*>q;
-            q.push(leaf);
-            unordered_set<TreeNode*>visited;
-            visited.insert(leaf);
-            for(int lvl=0;lvl<=distance;lvl++){
-                int size=q.size();
-                while(size--){
-                    TreeNode* node=q.front();
-                    q.pop();
-                    if(node!=leaf && leafNode.contains(node)) goodPairs++;
-                    for(auto &neighbour:graph[node]){
-                        if(!visited.contains(neighbour)){
-                            q.push(neighbour);
-                            visited.insert(neighbour);
-                        }
-                    }
-                }
-
+    vector<int>dfs(TreeNode* root, int dist, int &goodPairs){
+        if(!root) return{};
+        if(!root->left && !root->right) return{1};
+        vector<int>left=dfs(root->left,dist,goodPairs);
+        vector<int>right=dfs(root->right,dist,goodPairs);
+        for(auto& x:left){
+            for(auto& y:right){
+                if(x+y<=dist) goodPairs++;
             }
         }
-        return goodPairs/2;
+        vector<int>infoToParent;
+        for(auto& x:left){
+            if(x+1<dist) infoToParent.push_back(x+1);
+        }
+        for(auto& x:right){
+            if(x+1<dist) infoToParent.push_back(x+1);
+        }
+        return infoToParent;
+    }
+public:
+    int countPairs(TreeNode* root, int distance) {
+        int goodPairs=0;
+        dfs(root,distance,goodPairs);
+        return goodPairs;
     }
 };
