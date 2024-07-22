@@ -17,7 +17,6 @@ public:
                 count++;
                 i++;
             }
-            i--;
             ans+=count*impact;
             impact++;
         }
