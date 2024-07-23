@@ -9,34 +9,26 @@ private:
     }
 
     vector<int> topo(unordered_map<int, vector<int>>& adjList, int n){
-        vector<int>visited(n+1,0);
-        stack<int>st;
         vector<int>ans;
-        bool isCycle=false;
+        vector<int>indegree(n+1,0);
         for(int i=1;i<=n;i++){
-            if(!visited[i]) dfs(i,adjList,visited,st,isCycle);
-            if(isCycle) return {};
+           for(auto& neigh:adjList[i]) indegree[neigh]++;
         }
-        while(!st.empty()){
-            ans.push_back(st.top());
-            st.pop();
-        }
-        return ans;
-    }
-
-    void dfs(int node,unordered_map<int,vector<int>>& adjList,vector<int>& visited, stack<int>&st, bool &isCycle){
-        visited[node]=-1;
-        for(auto &neighbour:adjList[node]){
-            if(!visited[neighbour]){
-                dfs(neighbour,adjList,visited,st,isCycle);
-                if(isCycle) return; 
-            } else if(visited[neighbour]==-1){ 
-                isCycle=true;
-                return;
-            }
-        }
-        visited[node]=1; 
-        st.push(node);
+       queue<int>q;
+       for(int i=1;i<=n;i++){
+           if(indegree[i]==0) q.push(i);
+       }
+       while(!q.empty()){
+           int node=q.front();
+           q.pop();
+           ans.push_back(node);
+           for(auto& neigh:adjList[node]){
+               indegree[neigh]--;
+               if(indegree[neigh]==0) q.push(neigh);
+           }
+       }
+       if(ans.size()==n) return ans;
+       return {};
     }
 
 public:
