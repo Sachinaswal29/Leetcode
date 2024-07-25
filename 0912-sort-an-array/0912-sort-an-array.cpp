@@ -17,6 +17,29 @@ private:
             merge(nums,start,end,mid);
         }
     }
+    
+    int partition(vector<int>& nums, int start, int end){
+        int mid = start + (end - start) / 2;
+        swap(nums[mid], nums[end]);
+		
+        int pivot = nums[end];
+        int j = start;
+        for (int i = start; i < end; ++i) {
+            if (nums[i] < pivot) {
+                std::swap(nums[i], nums[j]);
+                ++j;
+            }
+        }
+        swap(nums[j], nums[end]);
+        return j;
+    }
+    void quickSort(vector<int>&nums, int start, int end){
+        if(start<end){
+            int partitionIndex=partition(nums,start,end);
+            quickSort(nums,start,partitionIndex-1);
+            quickSort(nums,partitionIndex+1,end);
+        }
+    }
 public:
     vector<int> sortArray(vector<int>& nums) {
         //Using STL
@@ -37,7 +60,11 @@ public:
         // return nums;
 
         // Using merge sort
-        mergeSort(nums,0,nums.size()-1);
+        // mergeSort(nums,0,nums.size()-1);
+        // return nums;
+
+        // Using quick sort
+        quickSort(nums,0,nums.size()-1);
         return nums;
     }
 };
