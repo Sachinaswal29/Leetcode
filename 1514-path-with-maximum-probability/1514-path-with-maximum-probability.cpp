@@ -13,15 +13,14 @@ public:
         pq.push({1.0,start_node});
         while(!pq.empty()){
             int node=pq.top().second;
-            double Prob=pq.top().first;
             pq.pop();
             if(explored[node]) continue;
             explored[node]=1;
             for(auto& neigh:adj[node]){
                 int childNode=neigh.first;
                 double childProb=neigh.second;
-                if(!explored[childNode] && (dist[childNode]<childProb*Prob)){
-                    dist[childNode]=childProb*Prob;
+                if(!explored[childNode] && (dist[childNode]<childProb*dist[node])){
+                    dist[childNode]=childProb*dist[node];
                     pq.push({dist[childNode],childNode});
                 }
             }
