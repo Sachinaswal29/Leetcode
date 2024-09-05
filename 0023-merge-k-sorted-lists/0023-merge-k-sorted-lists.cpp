@@ -10,7 +10,14 @@
  */
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
+    class Compare{
+        public:
+        bool operator()(ListNode* a, ListNode* b){
+            return a->val > b->val;
+        }
+    };
+
+    ListNode* UsingPair(vector<ListNode*>& lists){
         vector<pair<int,ListNode*>>v;
         for(int i=0;i<lists.size();i++){
             if(lists[i]) v.push_back({lists[i]->val,lists[i]});
@@ -26,5 +33,27 @@ public:
             if(temp->next) pq.push({temp->next->val,temp->next});
         }
         return head->next;
+    }
+
+    ListNode* UsingComparator(vector<ListNode*>& lists){
+        priority_queue<ListNode*,vector<ListNode*>,Compare>pq;
+        for(auto&x: lists){
+            if(x) pq.push(x);
+        }
+        ListNode* head=new ListNode(0);
+        ListNode* temp=head;
+        while(!pq.empty()){
+            temp->next=pq.top();
+            temp=temp->next;
+            pq.pop();
+            if(temp->next) pq.push(temp->next);
+        }
+        return head->next;
+    }
+
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        // return UsingPair(lists);
+        return UsingComparator(lists);
+        
     }
 };
