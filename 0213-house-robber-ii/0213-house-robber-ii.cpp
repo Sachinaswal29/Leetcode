@@ -25,19 +25,38 @@ public:
         // return max(start_From_First_House,start_From_Second_House);
 
         // Bottom up
-        vector<int>dp(n+1,-1);
-        dp[0]=0;
+        // vector<int>dp(n+1,-1);
+        // dp[0]=0;
+        // int maxi1=0,maxi2=0;
+        // for(int i=1;i<=n-1;i++){
+        //     dp[i]=max(nums[i-1]+(i-2>=0?dp[i-2]:0),dp[i-1]);
+        // }
+        // maxi1=dp[n-1];
+        // dp.clear();
+        // dp[0]=dp[1]=0;
+        // for(int i=2;i<=n;i++){
+        //     dp[i]=max(nums[i-1]+(i-2>=0?dp[i-2]:0),dp[i-1]);
+        // }
+        // maxi2=dp[n];
+        // return max(maxi1,maxi2);
+
+        // Space Optimized
+        int prev1=0,prev2=0,curr=0;
         int maxi1=0,maxi2=0;
         for(int i=1;i<=n-1;i++){
-            dp[i]=max(nums[i-1]+(i-2>=0?dp[i-2]:0),dp[i-1]);
+            curr=max(nums[i-1]+prev2,prev1);
+            prev2=prev1;
+            prev1=curr;
         }
-        maxi1=dp[n-1];
-        dp.clear();
-        dp[0]=dp[1]=0;
+        maxi1=curr;
+
+        prev1=0,prev2=0,curr=0;
         for(int i=2;i<=n;i++){
-            dp[i]=max(nums[i-1]+(i-2>=0?dp[i-2]:0),dp[i-1]);
+            curr=max(nums[i-1]+prev2,prev1);
+            prev2=prev1;
+            prev1=curr;
         }
-        maxi2=dp[n];
+        maxi2=curr;
         return max(maxi1,maxi2);
     }
 };
