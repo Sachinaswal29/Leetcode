@@ -1,15 +1,33 @@
 class MyCalendar {
 public:
-    vector<pair<int,int>>events;
+    //O(N)
+    // vector<pair<int,int>>events;
+    // MyCalendar() {
+        
+    // }
+    
+    // bool book(int start, int end) {
+    //     for(auto& [s,e]:events){
+    //         if(max(start,s)<min(end,e)) return false;
+    //     }
+    //     events.push_back({start,end});
+    //     return true;
+    // }
+
+    //O(logN)
+    set<pair<int,int>>st;
     MyCalendar() {
         
     }
     
     bool book(int start, int end) {
-        for(auto& [s,e]:events){
-            if(max(start,s)<min(end,e)) return false;
+        auto it=st.lower_bound({start,end});
+        if(it!=st.end() && (*it).first < end) return false;
+        if(it!=st.begin()){
+            auto previt=prev(it);
+            if(previt->second > start) return false;
         }
-        events.push_back({start,end});
+        st.insert({start,end});
         return true;
     }
 };
