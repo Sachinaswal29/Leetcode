@@ -6,6 +6,7 @@ public:
             ans=max(ans,size);
             return;
         }
+        if(st.size()+s.size()-idx<=ans) return; //Pruning for slight improvement
 
         string str="";
         for(int i=idx;i<s.size();i++){
