@@ -4,12 +4,7 @@ public:
         sort(folder.begin(),folder.end());
         vector<string>ans;
         for(auto& fldr:folder){
-            if(ans.empty()){
-                ans.push_back(fldr);
-                continue;
-            }
-            string parentFolder=ans[ans.size()-1];
-            if(fldr.substr(0,parentFolder.size()+1)!=parentFolder+'/') ans.push_back(fldr);
+            if(ans.empty() || fldr.compare(0,ans.back().size()+1,ans.back()+'/')!=0) ans.push_back(fldr);
         }
         return ans;
     }
