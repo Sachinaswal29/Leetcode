@@ -14,6 +14,7 @@
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/Sachinaswal29/Leetcode/tree/master/0038-count-and-say) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sachinaswal29/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sachinaswal29/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
