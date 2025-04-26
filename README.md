@@ -23,6 +23,7 @@
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sachinaswal29/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sachinaswal29/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -32,6 +33,7 @@
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Sachinaswal29/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2262-solving-questions-with-brainpower](https://github.com/Sachinaswal29/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sachinaswal29/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/Sachinaswal29/Leetcode/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sachinaswal29/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -61,6 +63,7 @@
 ## Queue
 |  |
 | ------- |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
 |  |
@@ -90,4 +93,8 @@
 |  |
 | ------- |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sachinaswal29/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
