@@ -5,6 +5,7 @@
 ## Math
 |  |
 | ------- |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/Sachinaswal29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Sachinaswal29/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 ## Number Theory
@@ -31,6 +32,7 @@
 |  |
 | ------- |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Sachinaswal29/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/Sachinaswal29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2262-solving-questions-with-brainpower](https://github.com/Sachinaswal29/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
