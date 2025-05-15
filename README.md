@@ -18,6 +18,7 @@
 | [0038-count-and-say](https://github.com/Sachinaswal29/Leetcode/tree/master/0038-count-and-say) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sachinaswal29/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sachinaswal29/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Sliding Window
 |  |
@@ -39,6 +40,7 @@
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sachinaswal29/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/Sachinaswal29/Leetcode/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sachinaswal29/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Hash Table
@@ -75,6 +77,7 @@
 |  |
 | ------- |
 | [2262-solving-questions-with-brainpower](https://github.com/Sachinaswal29/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -99,4 +102,8 @@
 |  |
 | ------- |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
+## Greedy
+|  |
+| ------- |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 <!---LeetCode Topics End-->
