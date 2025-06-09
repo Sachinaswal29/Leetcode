@@ -106,4 +106,8 @@
 |  |
 | ------- |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+## Trie
+|  |
+| ------- |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/Sachinaswal29/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 <!---LeetCode Topics End-->
