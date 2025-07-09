@@ -29,6 +29,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Array
 |  |
 | ------- |
@@ -43,6 +44,7 @@
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3483-alternating-groups-ii) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -106,6 +108,7 @@
 |  |
 | ------- |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Trie
 |  |
 | ------- |
