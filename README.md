@@ -16,6 +16,7 @@
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/Sachinaswal29/Leetcode/tree/master/0038-count-and-say) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sachinaswal29/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sachinaswal29/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -34,6 +35,7 @@
 |  |
 | ------- |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Sachinaswal29/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sachinaswal29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2262-solving-questions-with-brainpower](https://github.com/Sachinaswal29/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
@@ -113,4 +115,9 @@
 |  |
 | ------- |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Sachinaswal29/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+## Depth-First Search
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 <!---LeetCode Topics End-->
