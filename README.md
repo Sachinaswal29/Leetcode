@@ -38,6 +38,7 @@
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sachinaswal29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sachinaswal29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2262-solving-questions-with-brainpower](https://github.com/Sachinaswal29/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sachinaswal29/Leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sachinaswal29/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -67,6 +68,7 @@
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sachinaswal29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Queue
 |  |
@@ -86,6 +88,7 @@
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sachinaswal29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Combinatorics
 |  |
 | ------- |
@@ -94,6 +97,7 @@
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sachinaswal29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Two Pointers
 |  |
 | ------- |
