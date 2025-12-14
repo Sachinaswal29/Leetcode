@@ -7,6 +7,7 @@
 | ------- |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sachinaswal29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sachinaswal29/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Sachinaswal29/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 ## Number Theory
 |  |
@@ -18,6 +19,7 @@
 | [0038-count-and-say](https://github.com/Sachinaswal29/Leetcode/tree/master/0038-count-and-say) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sachinaswal29/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sachinaswal29/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sachinaswal29/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sachinaswal29/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -82,6 +84,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sachinaswal29/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2262-solving-questions-with-brainpower](https://github.com/Sachinaswal29/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Backtracking
