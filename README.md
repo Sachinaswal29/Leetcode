@@ -5,6 +5,7 @@
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Sachinaswal29/Leetcode/tree/master/0067-add-binary) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sachinaswal29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sachinaswal29/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
@@ -17,6 +18,7 @@
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/Sachinaswal29/Leetcode/tree/master/0038-count-and-say) |
+| [0067-add-binary](https://github.com/Sachinaswal29/Leetcode/tree/master/0067-add-binary) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sachinaswal29/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sachinaswal29/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
@@ -69,6 +71,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Sachinaswal29/Leetcode/tree/master/0067-add-binary) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sachinaswal29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sachinaswal29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sachinaswal29/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -127,4 +130,8 @@
 |  |
 | ------- |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Sachinaswal29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Sachinaswal29/Leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
